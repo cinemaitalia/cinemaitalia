@@ -1,0 +1,332 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.10240}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\f0\fs22\lang16\tab\tab\fs48 Progetto Ingegneria del Software\fs22\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1\fs32 Partecipanti:\fs22\par
+Gerardo Peluso  mat [0512102534]\par
+Vincenzo Russo mat[0512102436]\par
+\par
+\fs44 1. Introduzione\fs22\par
+\tab\fs32 1.1 Scopo Del Sistema\fs22\par
+\tab Questo progetto ha come obbiettivo  un miglioramento ed efficientamento della  \tab modalit\'e0 di acquisto di biglietti per il cinema da parte dei clienti, prevede l'acquisto \tab di biglietti sia online che mediante l'apposito sportello presente all'interno del \tab\tab cinema. Il tutto sviluppato per ridurre il lavoro svolto dai dipendenti presenti \tab all'interno del cinema e ridurre l'attesa dei clienti per l'acquisto del biglietto stesso. \tab L'acquisto online comporta anche un piccolo risparmio economico al cinema per la \tab stampa del biglietto che viene fatta dal cliente stesso al momento della \tab prenotazione \tab del film. Aggiornamento giornaliero dei film con orari e sale in cui vengono trasmessi, \tab ci\'f2 permette all'utente di prenotare un biglietto massimo con \tab una settimana di \tab anticipo.\par
+\tab\fs32 1.2 Ambito Del Sistema\fs22\par
+\tab Il vantaggio \'e8 quello di permettere ai clienti l'acquisto online dei biglietti ci\'f2 \tab\tab da la possibilit\'e0 al cliente di scegliere il posto nella sala. Ulteriore vantaggio \'e8 evitare \tab la cosa per  l'acquisto del biglietto ci\'f2 favorisce anche chi non usufruisce del servizio \tab online \tab e tutti clienti che sono registrati al sistema possono usufruire di possibili \tab sconti.\tab Permette l'amministratore di tenere traccia dei posti occupati  e liberi \tab all'interno delle sale in tempo reale. Il sistema \'e8 capace di gestire pi\'f9 sale \tab contemporaneamente  nelle quali vengono proiettati diversi film (non sempre i \tab film \tab per sala sono differenti). Ogni utente registrato al sistema avr\'e0 la possibilit\'e0 di \tab acquistare pi\'f9 biglietti contemporaneamente.\par
+\tab\fs32 1.3 Obiettivi e criteri di successo del progetto\fs22\par
+\tab\fs28 Gli obiettivi:\fs22\par
+\tab -   Prenotazione online dei biglietti;\par
+\tab -   Gestione delle sale;\par
+\tab -   Prenotazione allo sportello dei biglietti;\par
+\tab -   Gestione degli sconti;\par
+\tab -   Gestione dell'utente cliente;\par
+ \tab -   Gestione dell'utente amministratore;\par
+\tab -   Aggiornamento settimanale delle sale;\par
+\tab\fs28 Criteri di successo:\fs22\par
+\tab -   Rispetto dei tempi di consegna;\par
+\tab -   Rispetto degli obiettivi;\par
+\tab -   Rispetto nell'utilizzo delle risorse;\par
+\fs32 1.4 Panoramica\fs22\par
+\tab CinemaItalia \'e8 un software che verr\'e0 utilizzato per la gestione dell'acquisto di \tab biglietti.\par
+\tab Il sistema consentir\'e0 di :\par
+\tab -   Registrare clienti;\par
+\tab -   Acquisto biglietti;\par
+\tab -    Scelta posto in sala (se acquisto online);\par
+\tab -    Ricerca di film (orario, giorno, film) nell'arco di una settimana;\par
+\tab -   Ottenere sconti per clienti registrati;\par
+\tab -   Aggiornare le sale;\par
+\tab Inoltre il sistema si presenter\'e0 con un' interfaccia semplice ed intuitiva da rendere\tab semplice l'ultizzo sia al cliente che all'amministratore.\par
+\par
+\fs32 Requisiti Funzionali\fs22\par
+\par
+\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\cf1\ul\b CODICE\cf0\ulnone\b0\cell\cf1\ul\b\f1 NOME\cf0\ulnone\b0\f0\cell\cf1\ul\b\f1 PRIORIT\'c0\cf0\ulnone\b0\f0\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\cf1\ul\b\f1 RF 0\cf0\ulnone\b0\f0\cell\cf1\ul\b\f1 Prenotazione online \cf0\ulnone\b0\f0\cell\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\cf1\ul\b\f1 RF 1\cf0\ulnone\b0\f0\cell\cf1\ul\b\f1 Gestione delle sale\cf0\ulnone\b0\f0\cell\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\cf1\ul\b\f1 RF 2\cf0\ulnone\b0\f0\cell\cf1\ul\b\f1 Prenotazione allo sportello\cf0\ulnone\b0\f0\cell\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\cf1\ul\b\f1 RF 3\cf0\ulnone\b0\f0\cell\cf1\ul\b\f1 Gestione degli sconti\cf0\ulnone\b0\f0\cell\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\cf1\ul\b\f1 RF 4\cf0\ulnone\b0\f0\cell\cf1\ul\b\f1 Gestione dell'utente cliente\cf0\ulnone\b0\f0\cell\cell\row\trowd\trgaph100\trrh1\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\cf1\ul\b\f1 RF 5\cf0\ulnone\b0\f0\cell\cf1\ul\b\f1 Aggiornamento giornaliero\cf0\ulnone\b0\f0\cell\cell\row\trowd\trgaph100\trrh200\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\ul\b\f1 RF 6\cell Gestione Autenticazione\cell\ulnone\b0\f0\cell\row\trowd\trgaph100\trrh200\trpaddl100\trpaddr100\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3120\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6240\clcfpat1\clcbpat2\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9210 
+\pard\intbl\sl240\slmult1\qc\ul\b\f1 RF 7 \cell Gestione Registrazione\cell\cell\row 
+\pard\sa200\sl276\slmult1\ulnone\b0\f0\par
+\par
+RF 0: Prenotazione online\par
+
+\pard\sl276\slmult1 Questa funzionalit\'e0 permette al cliente di acquistare uno o pi\'f9 biglietti online.\par
+Attore: Cliente\par
+\tab RF 0.1: Prenotazione -  il cliente pu\'f2 scegliere il posto in sala al momento \tab\tab dell'acquisto.\par
+\tab RF 0.2: Sconto - il cliente pu\'f2 usufruire di sconti.\par
+
+\pard\sa200\sl276\slmult1\par
+RF 1: Gestione delle sale\par
+
+\pard\sl276\slmult1 Questa funziolit\'e0 permette all'amministratore di tenere traccia dei posti in sala.\par
+Attore: Amministratore\par
+\tab RF 1.1: Scelta sala - l'amministratore sceglie in che sala proiettare il film.\par
+\tab RF 1.2: Scelta posto - l'amministratore sceglie il posto in sala al momento \tab\par
+\tab dell'acquisto del biglietto presso lo sportello.\par
+\par
+RF 2: Prenotazione allo sportello\par
+\par
+Questa funzionalit\'e0 permette al cliente di acquistare il biglietto presso lo sportello del cinema.\par
+Attore: Amministratore\par
+\tab RF 2.1: Scelta posto - l'amministratore sceglie il posto in sala al momento \tab\par
+\tab dell'acquisto del biglietto presso lo sportello.\par
+\par
+RF 3: Gestione degli sconti\par
+\par
+Questa funzionalit\'e0 permette all'amministratore di assegnare degli sconti che usufruiranno solamente i clienti che acquistano il biglietto online.\par
+Attore: Amministratore\par
+\tab RF 3.1: Aggiunta sconto - l'amministratore aggiunge nuovi film con prezzi scontati.\par
+\par
+RF 4 : Gestione dell'utente cliente\par
+\par
+Questa funzionalit\'e0 permetta al cliente di apportare modifiche al profilo creato al momento della registrazione.\par
+Attore:Cliente\par
+\tab RF 4.1: Modifica cliente - contiene tutte le operazioni di modifica del profilo e \tab ggiunta del metodo di pagamamento del cliente.\par
+\par
+RF 5 : Aggiornamento Giornaliero\par
+\par
+Questa funzionalit\'e0 permette all'amministratore di aggiornare ogni giorno i film proiettati nelle sale.\par
+Attore: Amministratore\par
+\tab RF 5.1: Aggiunta film - contiene tutte le operazioni per permettere l'aggiunta di un \tab uovo film\par
+\par
+
+\pard\sa200\sl276\slmult1 RF 6: Gestione Autenticazione\par
+Questa funzionalit\'e0 permette al sistema CinemaItalia di gestire le autenticazioni degli utenti.\par
+
+\pard\fi720\sl331\slmult0\cf1 RF 6.1 : Login\b - \b0 questa funzionalit\'e0 permette di far effettuare ll\rquote accesso al sistema \tab utenticandosi ed avendo a disposizione le varie offerte disponibili.\par
+RF 6.2 :Logout-questa funzionalit\'e0 permette di uscire dal sistema disconettendosi.\par
+
+\pard\sl331\slmult0\ul\b\f1\fs20\par
+\ulnone\b0\f0\fs22 RF 7-  Gestione Registrazione\ul\f1\par
+
+\pard\li720\sl331\slmult0\ulnone\f0 Questa funzionalit\'e0 permette ai clienti di registrarsi al sistema CinemaItalia inserendo i propri dati.\ul\f1\par
+
+\pard\sl331\slmult0\ulnone\f0 Attore:Cliente\ul\f1\par
+\f0\tab\ulnone F 7.1:Registrazione - il cliente pu\'f2 inserire i propri dati per creare un profilo\ul\f1\par
+
+\pard\sa200\sl276\slmult1\cf0\ulnone\f0\par
+\par
+       \par
+\cf1\f1\fs52 Project Statement of Work\par
+\cf0\f0\fs44 Business Need\fs22\par
+Questo progetto ha come obbiettivo  un miglioramento ed efficientamento della  modalit\'e0 di acquisto di biglietti per il cinema da parte dei clienti, prevede l'acquisto \tab di biglietti sia online che mediante l'apposito sportello presente all'interno del cinema. Il tutto sviluppato per ridurre il lavoro svolto dai dipendenti presenti \tab all'interno del cinema e ridurre l'attesa dei clienti per l'acquisto del biglietto stesso. \tab L'acquisto online comporta anche un piccolo risparmio economico al cinema per la stampa del biglietto che viene fatta dal cliente stesso al momento della prenotazione del film. Aggiornamento settimanale dei film con orari e sale in cui vengono trasmessi, ci\'f2 permette all'utente di prenotare un biglietto massimo con una settimana di anticipo.\par
+\par
+\tab BN1. Velocizzare e semplificare l'acquisto di biglietti.\par
+\tab BN2. Piccolo risparmio economico riguardante la carta.\par
+\tab BN3.  Ottenere un sistema per gestire nel migliore dei modi i film.\par
+\par
+\cf1\b\f1\fs32 Product Scope Description\par
+\tab\b0\f0\fs22 BR1. Gestione dei film.\par
+\tab BR2. Interfaccia grafica.\par
+\tab BR3. Gestione utente cliente.\cf0\par
+\par
+\tab\tab\tab\tab\fs48 Scenari Cliente\par
+\fs36 1\fs22 __________________________________________________________________________\par
+Nome Scenario: Registrazione Cliente.\par
+Istanze di Attori Partecipanti: Vincenzo, cliente\par
+Flusso di Eventi:\par
+\tab 1.1 Registrazione all'avvio.\par
+
+\pard\sl276\slmult1\tab\tab 1) CinemaItalia all'avvio offre la registrazione.\par
+\tab\tab 2) Vincenzo clicca sul pulsante.\par
+\tab\tab 3) CinemaItalia offre l'interfaccia in cui sono presenti i campi da compilare \tab\tab per la registrazione.\par
+\tab\tab 4) Vincenzo compila i campi.\par
+\tab\tab 5) CinemaItalia collega vincenzo al sistema e offre il calendario dei film.\par
+
+\pard\sa200\sl276\slmult1\tab\par
+\tab 1.2 Registrazione Pre-Acquisto.\par
+
+\pard\sl276\slmult1\tab\tab 1) Vincenzo vuole acquistare il biglietto.\par
+\tab\tab 2)CinemaItalia chiede  se vuole registrarsi.\par
+\tab\tab 3)Vincenzo clicca sul pulsante.\par
+\tab\tab 4) CinemaItalia offre l'interfaccia in cui sono presenti i campi da compilare \tab\tab per la registrazione.\par
+\tab\tab 5) Vincenzo compila i campi.\par
+\tab\tab 6) CinemaItalia collega vincenzo al sistema e offre il calendario dei film.\par
+
+\pard\sa200\sl276\slmult1\par
+\fs36 2\fs22 __________________________________________________________________________\tab\par
+Nome Scenario: Login cliente\par
+Istanze di Attori Partecipanti: Vincenzo, cliente\par
+Flusso di eventi:\par
+\tab 2.1 Login all'avvio.\par
+
+\pard\sl276\slmult1\tab\tab 1)CinemaItalia all'avvio offre a Vincenzo un interfaccia in cui pu\'f2 \tab\tab\tab eseguire il login.\par
+\tab\tab 2)Vincenzo compila i campi dell'interfaccia e preme il pulsante di login.\par
+\tab\tab 3)CinemaItalia collega vincenzo al sistema e offre il calendario dei film.\par
+
+\pard\sa200\sl276\slmult1\tab\par
+\tab 2.2 Login Pre-acquisto.\par
+
+\pard\sl276\slmult1\tab\tab 1)Vincenzo vuole acquistare .\tab\tab\tab\tab\tab\tab\tab\tab 2)CinemaItalia chiede a Vincenzo se vuole accedere.\par
+\tab\tab 3)Vincenzo compila i campi e clicca sul pulsante.\par
+
+\pard\sa200\sl276\slmult1\par
+\fs36 3\fs22 __________________________________________________________________________\par
+Nome Scenario: Ricerca film\par
+Istanze di Attori Partecipanti: Vincenzo, cliente\par
+Flusso di eventi:\par
+\tab 3.1 Ricerca per data.\par
+
+\pard\sl276\slmult1\tab\tab 1) CinemaItalia offre il calendario dei film e un' area di ricerca.\par
+\tab\tab 2) Vincenzo inserisce la data nel campo.\par
+\tab\tab 3) CinemaItalia restituisce tutti i film proiettati in quella data.\par
+
+\pard\sa200\sl276\slmult1\tab\par
+\tab 3.2 Ricerca per ora.\par
+
+\pard\sl276\slmult1\tab\tab 1) CinemaItalia offre il calendario dei film e un' area di ricerca.\par
+\tab\tab 2) Vincenzo inserisce l'ora nel campo.\par
+\tab\tab 3) CinemaItalia restituisce tutti i film proiettati in quel giorno a\tab\tab\tab\tab partire da quell'ora.\par
+
+\pard\sa200\sl276\slmult1\tab\par
+\tab 3.3 Ricerca per titolo.\par
+
+\pard\sl276\slmult1\tab\tab 1) CinemaItalia offre il calendario dei film e un' area di ricerca.\par
+\tab\tab 2) Vincenzo inserisce il titolo nel campo.\par
+\tab\tab 3) CinemaItalia restituisce i film con quel titolo proiettati \tab\tab\tab\tab nell'arco di una settimana.\par
+
+\pard\sa200\sl276\slmult1\par
+\fs36 4\fs22 ___________________________________________________________________________\par
+Nome Scenario: Prenotazione pagando se registrato\par
+Istanze di Attori Partecipanti: Vincenzo, cliente\par
+Flusso di eventi:\par
+\tab 4.1 Con metodo di pagamento.\par
+
+\pard\sl276\slmult1\tab\tab 1)Vincenzo clicca sul film.\par
+\tab\tab 2) CinemaItalia fornisce a Vincenzo un' interfaccia con i posti \tab\tab\tab\tab della sala.\par
+\tab\tab 3)Vincenzo clicca su un posto libero.\par
+\tab\tab 4)CinemaItalia fornisce un' interfaccia dove \'e8 possibile \tab\tab\tab\tab\tab selezionare  uno dei  metodi di pagamento gia aggiunti.\par
+\tab\tab 5)Vincenzo seleziona il metodo di pagamento.\par
+\tab\tab 6)CinemaItalia avvia la stampa del biglietto.\par
+\par
+\tab 4.2 Con inserimento metodi di pagamento.\par
+\tab\tab 1)Vincenzo clicca sul film.\par
+\tab\tab 2) CinemaItalia fornisce a Vincenzo un' interfaccia con i posti \tab\tab\tab\tab della sala.\par
+\tab\tab 3)Vincenzo clicca su un posto libero.\par
+\tab\tab 4)CinemaItalia fornisce un' interfaccia dove \'e8 possibile \tab\tab\tab\tab\tab aggiungere un metodo di pagamamento.\par
+\tab\tab 5)Vincenzo utilizza lo scenario Aggiunta metodo di pagamento.\par
+\tab\tab 6)CinemaItalia fornisce un' interfaccia dove \'e8 possibile \tab\tab\tab\tab\tab selezionare  i metodi di pagamamenti.\par
+\tab\tab 7)Vincenzo seleziona il metodo di pagamento.\tab\tab\tab\tab\tab\tab 8)CinemaItalia avvia la stampa del biglietto.\par
+
+\pard\sa200\sl276\slmult1\par
+\fs36 5\fs22 ___________________________________________________________________________\par
+Nome Scenario: Modifica profilo\par
+Istanze di Attori Partecipanti: Vincenzo, cliente\par
+Flusso di eventi:\par
+
+\pard\sl276\slmult1\tab\tab 1) Vincenzo utilizza lo scenario Login cliente.\par
+\tab\tab 2) CinemaItalia restituisce un' interfaccia con un pulsante  modifica.\tab\tab\tab 3)Vincenzo clicca il pulsante.\par
+\tab\tab 4)CinemaItalia restituisce un' interfaccia dove sono presenti i campi per\par
+\tab\tab la modifica dei dati ed un pulsante per salvare le modifiche.\par
+\tab\tab 5)Vincenzo compila i campi e clicca il pulsante salva.\par
+\tab\tab 6)CinemaItalia fornisce un' interfaccia contenente il calendario dei film.\par
+
+\pard\sa200\sl276\slmult1\par
+\fs36 6\fs22 ___________________________________________________________________________\par
+Nome Scenario: Aggiunta metodo di pagamento\par
+Istanze di Attori Partecipanti: Vincenzo, cliente\par
+Flusso di eventi:\par
+
+\pard\sl276\slmult1\tab\tab 1) Utilizza lo scenario Login Cliente.\par
+\tab\tab 2)CinemaItalia offre un' interfaccia con un pulsante aggiunta metodo di\tab\par
+\tab\tab pagamento.\par
+\tab\tab 3)Vincenzo clicca sul pulsante.\par
+\tab\tab 4)CinemaItalia offre a Vincenzo un' interfaccia dove poter inserire i dati \tab\par
+\tab\tab e un pulsante di conferma.\par
+\tab\tab 5)Vincenzo inserisce i dati e clicca il pulsante.\par
+\tab\tab 6)CinemaItalia fornisce un' interfaccia contenente il calendario dei film.\par
+
+\pard\sa200\sl276\slmult1\par
+\fs36\-7\fs22 ___________________________________________________________________________\par
+Nome Scenario: Prenotazione pagando se non registrato\par
+Istanze di Attori Partecipanti: Vincenzo, cliente\par
+Flusso di eventi:\par
+
+\pard\sl276\slmult1\tab\tab\tab 1)Vincenzo clicca sul film.\par
+\tab\tab\tab 2) CinemaItalia fornisce a Vincenzo un' interfaccia con i posti \tab\tab\tab\tab della sala.\par
+\tab\tab\tab 3)Vincenzo clicca su un posto libero.\par
+\tab\tab\tab 4)CinemaItalia fornisce un' interfaccia per la registrazione con un \tab\tab\tab pulsante ok.\par
+\tab\tab\tab 5)Vincenzo compila i campi e clicca sul pulsante ok.\par
+\tab\tab\tab 6)Vincenzo usa lo scenario Aggiunta metodo di pagamento.\par
+\tab\tab\tab 7)CinemaItalia fornisce un' interfaccia dove \'e8 possibile \tab\tab\tab\tab\tab selezionare  uno dei  metodi di pagamento gia aggiunti.\par
+\tab\tab\tab 8)Vincenzo seleziona il metodo di pagamento.\par
+\tab\tab\tab 9)CinemaItalia avvia la stampa del biglietto.\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\par
+\tab\tab\tab\par
+
+\pard\sa200\sl276\slmult1\qc\fs48 Scenari Amministratore\fs22\par
+
+\pard\sa200\sl276\slmult1\fs36 1\fs22 ___________________________________________________________________________\par
+Nome Scenario: Login Amministratore.\par
+Istanze di Attori Partecipanti: Gerardo, amministratore\par
+Flusso di Eventi:\par
+
+\pard\sl276\slmult1\tab\tab 1) CinemaItalia offre nell'interfaccia la possibilit\'e0 di loggare.\par
+\tab\tab 2)Gerardo inserisce i suoi dati.\par
+\tab\tab 3)CinemaItalia accetta i dati e mostra un'interfaccia a Gerardo per gestire i \tab\tab film.\par
+
+\pard\sa200\sl276\slmult1\par
+\fs36 2\fs22 ___________________________________________________________________________\par
+Nome Scenario: Aggiornamento Sale.\par
+Istanze di Attori Partecipanti: Gerardo,amministratore\par
+Flusso di Eventi:\par
+
+\pard\sl276\slmult1\tab\tab 2.1)Cancellazione Film\par
+\tab\tab\tab 1)Gerardo clicca su un film.\par
+\tab\tab\tab 2)CinemaItalia mostra un'interfaccia con pulsante cancella.\par
+\tab\tab\tab 3)Gerardo  clicca su pulsante cancella.\par
+\tab\tab\tab 4)CinemaItalia chiede conferma con due pulsanti Si e No.\par
+\tab\tab\tab 5)Gerardo clicca sul pulsante SI.\par
+\tab\tab\tab 6)CinemaItalia riporta Gerardo nell'interfaccia di gestione dei film.\par
+\par
+\tab\tab 2.2)Aggiunta Film\par
+\tab\tab\tab 1)CinemaItalia mostra un'interfaccia con un pulsante aggiungi.\par
+\tab\tab\tab 2)Gerardo clicca sul pulsante Aggiungi.\par
+\tab\tab\tab 3)CinemaItalia mostra un'interfaccia con i campi da compilare.\par
+\tab\tab\tab 4)Gerardo compila i campi e clicca su un pulsante di OK.\par
+\tab\tab\tab 5)CinemaItalia offre un'interfaccia dove vi \'e8 una mappa della sala \tab\tab\tab vuota.\par
+\tab\tab\tab 6)Gerardo clicca sul pulsante OK.\par
+\tab\tab\tab 7)CinemaItalia riporta Gerardo nell'interfaccia di gestione dei film.\par
+
+\pard\sl276\slmult1\qc\par
+
+\pard\sa200\sl276\slmult1\fs36 3\fs22 ___________________________________________________________________________\par
+Nome Scenario: Vendita Biglietti.\par
+Istanze di Attori Partecipanti: Gerardo,amministratore\par
+Flusso di Eventi:\par
+
+\pard\sl240\slmult1\tab\tab 1)Gerardo clicca sul film.\par
+\tab\tab 2)CinemaItalia offre un'interfaccia della mappa della sala.\par
+\tab\tab 3)Gerardo clicca sul pulsante il pimo posto libero.\par
+\tab\tab 4)CinemaItalia chiede conferma a Gerardo.\par
+\tab\tab 5)Gerardo clicca sul pulsante SI.\par
+\tab\tab 6)CinemaItalia modifica la mappa, stampa e riporta Gerardo nell'interfaccia        \tab\tab di gestione dei film.\par
+
+\pard\sa200\sl276\slmult1\par
+\tab\tab\tab\tab\par
+\tab\tab\tab\par
+\par
+\par
+\par
+\tab\tab\par
+\tab\par
+\par
+\par
+}
+ 
